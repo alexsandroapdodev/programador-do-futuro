@@ -1,0 +1,104 @@
+=======================================================================================
+
+https://console.groq.com/home
+
+https://devflix.devclub.com.br/devflix-dev17/materiais
+
+https://n8n.io/
+
+https://excalidraw.com/
+
+https://devclub.notion.site/Materiais-de-APOIO-57c8b47e3e284583b0a54cdd941c9550
+
+https://transicao.devclub.com.br/
+
+=======================================================================================
+
+O que é o n8n?
+
+É uma ferramenta de automação sem código (low-code) que conecta
+apps e serviços para executar tarefas de forma automática.
+
+Por que usar o n8n?
+
+Automatiza processos repetitivos
+Conecta + de 300 apps (como Gmail, Slack, Google Sheets etc.)
+Fácil de usar: arraste e solte os blocos
+É gratuito e de código aberto
+Pode rodar na nuvem ou no seu próprio servidor
+
+=======================================================================================
+
+Webhook
+
+Um webhook é como um "mensageiro automático" entre dois sistemas.
+
+Em termos técnicos:
+Um webhook é uma url (um "endereço") que seu sistema disponibiliza.
+Outro sistemas envia informações para essa URL quando um evento acontece.
+Esse envio é feito por uma requisição HTTP POST, contendo os dados do evento.
+
+Métodos HTTP Básicos
+
+Get: Trás dados de um servidor usado para obter informações sem
+alterar os valores.
+
+Post: Envia dados ao servidor para criar algo.
+
+Put: Atualiza dados existente com os dados enviados.
+
+Delete: Deleta algo do servidor
+
+=======================================================================================
+
+System Message
+
+É a instrução invisível que define o comportamento da IA.
+Exemplo: "Você é um assistente educado e objetivo."
+
+Prompt User Message
+
+É o que usuário digita para fazer uma pergunta ou dar um comando.
+Exemplo: "Me explique o que é um webhook."
+
+Resumindo:
+
+System Message = configura como a IA deve agir.
+Prompt User Message = o que o usuário quer saber ou pedir.
+
+=======================================================================================
+
+Gerador de Animações CSS
+Crie uma animação CSS e responda somente com este JSON:
+{
+"code": "HTML com <span class='selector/property/value'>...</span>",
+"preview": "<div class='nome'></div>",
+"style": "CSS puro"
+}
+REGRAS:
+Sem quebras de linha
+Use aspas simples dentro das strings
+Animações coloridas e impressionantes
+Código simples com visual marcante
+Formatação com <span class='selector'>, <span class='property'>, <span
+class='value'>
+EXEMPLO (bola pulando):
+
+{
+"code": "<span class='selector'>.bola</span> { <span class='property'>width</
+span>: <span class='value'>80px</span>; <span class='property'>height</span>:
+<span class='value'>80px</span>; <span class='property'>background</span>:
+<span class='value'>radial-gradient(#4fc3f7, #1976d2)</span>; <span
+class='property'>border-radius</span>: <span class='value'>50%</span>; <span
+class='property'>animation</span>: <span class='value'>pular 1s infinite</span>; }
+<span class='selector'>@keyframes</span> <span class='value'>pular</span>
+{ <span class='property'>0%</span> { <span class='property'>transform</span>:
+<span class='value'>translateY(0)</span>; } <span class='property'>50%</span>
+{ <span class='property'>transform</span>: <span
+class='value'>translateY(-100px)</span>; } }",
+"preview": "<div class='bola'></div>",
+"style": ".bola { width: 80px; height: 80px; background: radial-gradient(#4fc3f7,
+#1976d2); border-radius: 50%; animation: pular 1s infinite; } @keyframes pular { 0%
+{ transform: translateY(0); } 50% { transform: translateY(-100px); } 100% { transform:
+translateY(0); } }"
+}
